@@ -6,8 +6,8 @@ $ModuleVersion = "0.0.1";
 $ScriptName = "Skyhoshi.Local-Machine-Settings-Cache";
 
 function Get-ModuleLocationPath {
-# $ModuleDevelopmentStorageLocation = "$env:OneDriveConsumer\Scripts\Powershell\Modules\";
-$ModuleDevelopmentStorageLocation = "$env:OneDriveConsumer\Scripts\Powershell\Modules\Machine-Settings-Cache-Module\Manifest Definition and Information";
+# $ModuleDevelopmentStorageLocation = "$env:POWERSHELLSCRIPTSTORE\Scripts\Powershell\Modules\";
+$ModuleDevelopmentStorageLocation = "$env:POWERSHELLSCRIPTSTORE\Scripts\Powershell\Modules\Machine-Settings-Cache-Module\Manifest Definition and Information";
 
 $ModuleDevelopmentStorageModule = "$ModuleDevelopmentStorageLocation\$ModuleName\";
 
